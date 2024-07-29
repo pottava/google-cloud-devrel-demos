@@ -70,7 +70,7 @@ export default function Home() {
       </div>
       <main className="flex flex-col min-h-screen items-center justify-between p-24">
         <h1 className={`mb-3 text-7xl font-mono -z-20`}>
-          Load Balancing Blitz
+          Beat Google at Load Balancing
         </h1>
         <StartButton
           onClick={() => setShowPlayComponent(true)}
@@ -78,11 +78,10 @@ export default function Home() {
         />
         <div>
           <p>
-            Press 1, 2, 3, and 4 to distribute the incoming requests
-            across the four virtual machines.
+            1, 2, 3, 4 のボタンを押して "流れ込む負荷" を 4 つのマシンに均等に割り振ってください ٩( 'ω' )و
           </p>
           <p>
-            Hint: Keep moving! Be careful not to direct all of the requests to a single machine.
+            ヒント: 負荷の分散先は切り替え続けてください。1 台に集中させすぎないのが重要です！
           </p>
         </div>
         {secretPasswordExists && <>

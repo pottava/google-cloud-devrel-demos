@@ -34,16 +34,16 @@ export default memo(function Results({ playerOneScore, playerTwoScore }: { playe
         <table className=''>
           <tbody>
             <tr>
-              <td>Your Score</td>
+              <td>あなたのスコア</td>
               <td className='text-right pl-16 font-mono'>{playerOneScore}</td>
             </tr>
             <tr>
-              <td>GLB Score</td>
+              <td>Google Cloud のロードバランサー (GCLB) のスコア</td>
               <td className='text-right pl-16 font-mono'>{playerTwoScore}</td>
             </tr>
             <tr className="text-2xl">
               <td colSpan={2} className='text-center pt-4'>
-                You performed {playerEfficiency} as well as the Google Cloud Load Balancer.
+                GCLB と比べて {playerEfficiency} 程のパフォーマンスを達成しました
               </td>
             </tr>
           </tbody>
@@ -57,7 +57,7 @@ export default memo(function Results({ playerOneScore, playerTwoScore }: { playe
           <h2 className={`mb-3 text-5xl font-semibold`}>
             Press S to return home
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+              &nbsp;▶︎&nbsp;
             </span>
           </h2>
         </a>

@@ -53,10 +53,10 @@ export default function StartButton({ onClick, showPassword }: { onClick: Functi
           className="group rounded-lg border px-5 py-4 transition-colors hover:bg-gray-100"
         >
           <h2 className={`mb-3 text-5xl font-mono`}>
-            Game Already In Progress
+            ゲーム準備中です
           </h2>
           <h2 className={`mb-3 text-3xl font-mono`}>
-            Check Back In {Math.ceil(timeRemaining)} seconds
+            {Math.ceil(timeRemaining)} 秒後に再読込みしてください
           </h2>
         </button>
       ) : (
@@ -65,9 +65,9 @@ export default function StartButton({ onClick, showPassword }: { onClick: Functi
           className="group rounded-lg border px-5 py-4 transition-colors hover:bg-gray-100"
         >
           <h2 className={`mb-3 text-5xl font-mono`}>
-            Press S to start
+            S ボタンでスタート
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+              &nbsp;▶︎&nbsp;
             </span>
           </h2>
         </button>

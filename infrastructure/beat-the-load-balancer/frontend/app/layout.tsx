@@ -6,7 +6,7 @@ import AudioButton from "@/components/AudioButton";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Load Balancing Blitz",
+  title: "Beat Google at Load Balancing",
   description: "Race against Google Cloud load balancer to see who can route internet traffic faster in this timed showdown!",
 };
 
